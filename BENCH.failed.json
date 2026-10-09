@@ -1,0 +1,10 @@
+{
+  "project": "NETCDF4",
+  "category": "MINING",
+  "path": "E:\\fenta\\Downloads\\The Anticloud\\ANTICLOUD_REPOS\\MINING\\NETCDF4",
+  "status": "failed",
+  "reason": "no 40-hex git HEAD SHA (head=None; sanitized clone or .git absent)",
+  "files_count": 115,
+  "lines_of_code": 8626,
+  "sha": null
+}

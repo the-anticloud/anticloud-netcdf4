@@ -1,0 +1,81 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:5924f933-c8a2-5e6e-8830-ae857e8b0e1f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-07T08:49:37Z",
+    "component": {
+      "type": "application",
+      "name": "NETCDF4",
+      "version": "e88cd4304760",
+      "bom-ref": "pkg:generic/anticloud/NETCDF4@e88cd4304760",
+      "purl": "pkg:generic/anticloud/NETCDF4@e88cd4304760",
+      "licenses": [
+        {
+          "license": {
+            "id": "MIT"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "e88cd43047608e375a9d45b976a603aa8aa407e2"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/the-anticloud/anticloud-netcdf4.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "cftime",
+      "version": "unspecified",
+      "purl": "pkg:pypi/cftime",
+      "bom-ref": "pypi/cftime@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "certifi",
+      "version": "unspecified",
+      "purl": "pkg:pypi/certifi",
+      "bom-ref": "pypi/certifi@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "packaging",
+      "version": "unspecified",
+      "purl": "pkg:pypi/packaging",
+      "bom-ref": "pypi/packaging@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=2.3.0",
+      "purl": "pkg:pypi/numpy@2.3.0",
+      "bom-ref": "pypi/numpy@>=2.3.0"
+    },
+    {
+      "type": "library",
+      "name": "Windows",
+      "version": "unspecified",
+      "purl": "pkg:pypi/windows",
+      "bom-ref": "pypi/Windows@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ARM64",
+      "version": "unspecified",
+      "purl": "pkg:pypi/arm64",
+      "bom-ref": "pypi/ARM64@unspecified"
+    }
+  ]
+}
